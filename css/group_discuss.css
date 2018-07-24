@@ -1,0 +1,152 @@
+.nav ul li ul{
+    z-index:999;
+}
+.box_3 {
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 21px;
+}
+.mll{ width:1200px; border:1px #e8e8e8 solid; background:#FFF;}
+
+.gs{ margin-right:30px;}
+
+.bksc{ margin-left:10px; border-right:1px solid #A0DEF5; padding-right:10px;}
+.bks{ margin-left:10px;}
+.circle{ width: 50px; height:50px; background-color:#FFA000; border-radius: 50%;-moz-border-radius: 50%;      -webkit-border-radius: 50%; color:#FFF; text-align:center; font-size:10px; padding:2px 2px;font-family:Arial, Helvetica, sans-serif; margin-left:5px;}
+
+.mll_tail{ width:1200px; height:38px; border-bottom:2px solid #45A5F5; background:#D5F0FA; vertical-align:middle; line-height:38px;}
+.mll_tail a{ text-decoration:none; color:#45A5F5; font-size:14px;position: relative;}
+
+.mll_tail .mll_bigBtn{
+    float: left;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 30px;
+}
+.mll_tail .mll_bigBtn span{
+    display: block;
+    float: left;
+    font-size: 0;
+    width: 21px;
+    height: 38px;
+    background: url(../images/icon12.png) no-repeat center center;
+}
+.mll_tail .mll_bigBtn>a{
+    color: #2a8cd7;
+    font-size: 18px;
+    padding: 0 20px;
+    display: block;
+    float: left;
+    position: relative;
+}
+.mll_g{ margin-top:20px; margin-left:30px; font-size:12px;  color:#666; margin-right:30px; margin-bottom:20px;}
+img.arrowUp{
+    bottom:-10px;
+    margin-left:-19px;
+}
+.status {
+    margin-bottom:34px;
+}
+.status .red{
+    color:#fc755a;
+}
+.mll_g_left{
+    width:767px;
+    margin-right:20px;
+}
+.tasks-list li{
+    border:1px solid #eee;
+    padding:20px;
+    margin-bottom:20px;
+}
+.tasks-list .selected{
+    border:1px solid #42a5f5;
+}
+.mll_g_right{
+    width:323px;
+    min-height:770px;
+    border:1px solid #eee;
+    padding:20px 14px 20px 14px;
+}
+
+.title{
+    margin-bottom:8px;
+}
+.title-fl{
+    font-size:14px;
+    color:#2a8cd7;
+    padding-left:19px;
+    background:url(../images/3_04.png) no-repeat left center;
+}
+.title-fl:hover{
+    text-decoration: underline;
+}
+em{
+    font-style:normal;
+}
+.desc{
+    color:#666;
+    padding-left:24px;
+    margin-bottom:16px;
+}
+.desc p{
+    line-height:28px;
+}
+.desc p span{
+    margin-right:30px;
+}
+.sumary {
+    padding-left:24px;
+}
+.suma{
+    color:#2a8cd7;
+    padding-left:19px;
+    background:url(../images/icon14.png) no-repeat left center;
+}
+.share1 span{
+    color:#b7b7b7;
+}
+.share1 span:hover{
+    text-decoration: none;
+}
+.green{
+    color:#66cc33;
+}
+.grey{
+    color:#b7b7b7;
+}
+.discuss-tit{
+    height:32px;
+    border-bottom:1px solid #ddd;
+    margin-bottom:20px;
+}
+.discuss-tit span{
+    font-size:16px;
+    color:#2a8cd7;
+    padding-bottom:10px;
+    border-bottom:2px solid #42a5f5;
+}
+.discuss-item{
+    position: relative;
+    padding-left:8px;
+    margin-bottom:20px;
+}
+.discuss-item::before{
+    position: absolute;
+    left:0;
+    top:9px;
+    content:"";
+    width:4px;
+    height:4px;
+    background-color: #b5def3;
+}
+.discuss-item a{
+    color:#666;
+    font-size:14px;
+}
+.discuss-item a:hover,.discuss-item a:active{
+    color:#2a8cd7;
+}
+.discuss-item span{
+    color:#b7b7b7;
+}

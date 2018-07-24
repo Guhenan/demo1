@@ -1,0 +1,116 @@
+.ml{ width:222px; border-left:#DEDEDE 3px solid; border-right: 1px solid #e8e8e8; background:#fff;min-height: 870px;
+    border-bottom: 1px solid #e8e8e8;
+}
+.q{ padding:5px 15px; line-height:40px; border:1px solid #E8E8E8;
+    background-color: #f4f4f4;}
+.ol-tail{ font-weight: bold; border-right:2px solid #42a5f5;padding-right:16px; line-height:20px; margin-top:10px;}
+.ol-tail a{text-decoration:none; color:#2a8cd7; font-size:15px;  font-family:"微软雅黑"; }
+.ol-taill a{text-decoration:none; color:#999;font-size:14px;  font-family:"微软雅黑";}
+.bgt{  background:#FFF;padding:0 10px 0 23px; line-height:46px;}
+.ol-tai{ font-size:14px;  font-family:"微软雅黑"; }
+.ol-tai a{text-decoration:underline; color:#65B4F4;}
+.ol-ta{ margin-top:10px;font-size:14px;  font-family:"微软雅黑"; width:120px; height:25px; border:1px #e6e6e6 solid ; background:#E6E6E6; text-align:center; line-height:25px; border-radius:2px;}
+.ol-ta a{text-decoration:none; color:#666;}
+.ol-ta:hover{ background:#FFF; border:1px #e6e6e6 solid}
+
+
+.ce{
+    display:block;width:222px;
+    background:#f4f4f4;
+}
+.ce li{
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #E7E7E7;
+}
+.more{margin-right:16px;}
+.ce li a{padding: 10px 10px 10px 40px;color:#666666;display:block;cursor:pointer;text-decoration:none;font-family:"微软雅黑"; font-size:14px;}
+.ce li a:hover{background:#FFF;}
+.ce li .dqian{background:none}
+.ce li .xz{background:#F4F4F4}
+.ce li .lastLi{
+    border-bottom: none;
+}
+.er{display:none;width:222px;}
+.er li{width:100%;}
+.er li a{display:block;color:#666;background:none;font-size: 15px; padding-left:60px; text-decoration:none;font-family:"微软雅黑"; font-size:14px;}
+
+.er li a:hover,.er li .sen_x{background:#fff;}
+.er .e_li a:hover,.er .e_li .sen_x{background:#fff;}
+.er2{
+    border-top: 1px solid #fff;
+}
+.thr{display:none;list-style:none;}
+.thr li{position:relative;}
+.er .e_li .thr li a{font-family:"微软雅黑"; font-size:14px;}
+.er .e_li .thr li a:hover{background:#CCC;}
+
+.more1{margin-left: 28px;margin-top: -4px;}
+.points{
+    display: none;
+}
+.zsd_con .library-title{
+    font-weight:normal;
+    font-size:18px;
+    color:#2a8cd7;
+    padding-left:33px;
+    background:url(../images/blue-ser.png) no-repeat left center;
+    margin-bottom:20px;
+}
+.lib-add a{
+    color:#42a5f5;
+    text-decoration: underline;
+}
+.top-con .item{
+    margin-bottom:20px;
+    font-size:12px;
+    color:#666;
+}
+.item1 input[type="text"]{
+    border:0 none;
+    border:1px solid #d4d4d4;
+    height:28px;
+    padding:0 5px;
+    color:#666;
+}
+.item span{
+    display:inline-block;
+    width:82px;
+}
+.item1 .con input[type="text"]{
+    width:347px;
+}
+.item1 .time input[type="text"]{
+    width: 148px;
+}
+.item2 div a{
+    display:inline-block;
+    margin-right:18px;
+    color:#666;
+}
+.item2 div a.selected{
+    padding:3px 8px;
+    text-align: center;
+    color:#fff;
+    background-color: #ffa000;
+    border-radius: 3px;
+}
+.item5 label{
+    margin-right:30px;
+}
+.item5 label input[type="radio"]{
+    vertical-align:middle;
+}
+.item5 a{
+    display:inline-block;
+    width: 68px;
+    height: 24px;
+    line-height:24px;
+    text-align: center;
+    color:#fff;
+    background-color: #42a5f5;
+    border-radius: 3px;
+}
+.item .normal span{
+    width:auto;
+    margin-right:20px;
+}

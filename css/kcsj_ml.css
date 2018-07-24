@@ -1,0 +1,346 @@
+@charset "utf-8";
+/* CSS Document */
+
+.box_3 {
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 21px;
+}
+.mlBox{ width:1200px; border:1px #e8e8e8 solid; background:#FFF;}
+
+.ml_bigBtn{
+	float: left;
+	height: 38px;
+	line-height: 38px;
+	padding-left: 30px;
+}
+.ml_bigBtn span{
+	display: block;
+	float: left;
+	font-size: 0;
+	width: 21px;
+	height: 38px;
+	background: url(../images/icon12.png) no-repeat center center;
+}
+.ml_bigBtn>a{
+	color: #2a8cd7;
+	font-size: 18px;
+	padding: 0 20px;
+	position: relative;
+	display: block;
+	float: left;
+}
+.ml_subNav{ width:1200px; height:38px; border-bottom:2px solid #45A5F5; background:#D5F0FA; vertical-align:middle; line-height:38px;}
+.gs{ margin-right:30px;}
+.gs a{ text-decoration:none; color:#45A5F5; font-size:14px;}
+.gs a.bksc{ margin-left:10px; border-right:1px solid #A0DEF5; padding-right:10px;}
+.gs a.bks{ margin-left:10px;}
+.gs a .circle{ width: 50px; height:50px; background-color:#FFA000; border-radius: 50%;-moz-border-radius: 50%;      -webkit-border-radius: 50%; color:#FFF; text-align:center; font-size:10px; padding:2px 2px;font-family:Arial, Helvetica, sans-serif; margin-left:5px;} 
+.ml_con{ 
+	 color:#666; 
+	 padding: 50px 30px;
+}
+
+/************************页面主体部分左侧区域开始************************/
+.mlLeft{
+	width: 540px;
+	float: left;
+}
+.addBox{
+	height: 30px;
+	line-height: 27px;
+	width: 100%;
+	margin-bottom: 10px;
+	position: relative;
+    z-index: 1;
+}
+.addBox a.addZsd{
+	display: block;
+	width: 138px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	color: #677482;
+	float: left;
+	border: 1px solid #dcdcdc;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background: #f5f5f5;
+}
+.talkBtn{
+	float: right;
+    width: 110px;
+    height: 30px;
+    background: #45A5F5;
+    text-align: center;
+    line-height: 29px;
+    color: #FFF;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.startBtn3{
+	float: right;
+	border: 1px solid #d4d4d4;
+	color: #4284d0;
+	width: 144px;
+	text-align: center;
+	padding-right: 10px;
+	height: 28px;
+	border-radius: 0;
+	background: url(../images/arwor_05.png) no-repeat 140px center;
+	position: relative;
+	cursor: pointer;
+    margin-left: 10px;
+}
+
+.startBtn3 span{
+	margin-left:3px;
+}
+.startBtn3 span i{
+	color: #fc755a;
+}
+ul.talkCon{
+	padding: 3px 14px;
+	width: 366px;
+	position: absolute;
+	left: -1px;
+	top:28px;
+	border: 1px solid #d4d4d4;
+	font-size: 12px;
+	display: none;
+	background: #fff;
+}
+ul.talkCon li{
+	height: 14px;
+	line-height: 14px;
+	padding:7px 0px; 
+}
+ul.talkCon li a{
+	float: left;
+	color: #666;
+	display: block;
+	height: 14px;
+	line-height: 14px;
+}
+ul.talkCon li a:hover{
+	color: #4284d0;
+}
+
+ul.talkCon li .share{
+	float: right;
+	padding: 0;
+}
+ul.talkCon li .share span{
+	float: left;
+	margin-right: 10px;
+}
+ul.talkCon li .share a.myShare{
+	margin-right: 0;
+}
+
+/******************************* ***************************/
+.mybigList{
+	width: 540px;
+	min-height: 658px;
+	padding: 10px 0px;
+	border: 1px solid #ddd;
+}
+.ol-tail{ font-weight: bold; border-right:2px solid #42a5f5;padding-right:20px; line-height:20px; margin-top:10px;}
+.ol-tail a{text-decoration:none; color:#42a5f5; font-size:16px;  font-family:"微软雅黑"; }
+.ol-taill a{text-decoration:none; color:#999;font-size:16px;  font-family:"微软雅黑"; margin-right:10px;}
+.bgt{  background:#FFF;padding:0 10px 0 23px; line-height:46px;}
+.ol-tai{ font-size:14px;  font-family:"微软雅黑"; }
+.ol-tai a{text-decoration:underline; color:#65B4F4;}
+.ol-ta{ margin-top:10px;font-size:14px;  font-family:"微软雅黑"; width:120px; height:25px; border:1px #e6e6e6 solid ; background:#E6E6E6; text-align:center; line-height:25px; border-radius:2px;}
+.ol-ta a{text-decoration:none; color:#666;}
+.ol-ta:hover{ background:#FFF; border:1px #e6e6e6 solid}
+
+
+.ce{
+	display:block;
+	width:540px;
+}
+.ce li{
+	width: 540px;
+	position: relative;
+}
+.more{margin-right:16px;}
+.ce li a{
+	padding: 8px 10px 8px 30px;
+	color:#666666;
+	display:block;
+	cursor:pointer;
+	font-family:"微软雅黑"; 
+	height: 14px;
+    line-height: 14px;
+}
+.ce li a:hover,.er li a:hover{background:#f4f4f4;}
+.ce li .lastLi{
+	border-bottom: none;
+}
+
+.er{display:none;}
+.er li{
+	width:100%; 
+	position: relative;
+}
+.er li a{display:block;color:#666;background:none;font-size: 15px; 
+	padding-left:75px; text-decoration:none;font-family:"微软雅黑"; font-size:14px;}
+.er2{
+	border-top: 1px solid #fff;
+}
+.thr{display:none;list-style:none;}
+.thr li{position:relative;}
+.er .e_li .thr li a{font-family:"微软雅黑";
+ font-size:14px; padding-left: 95px;
+}
+.er .e_li .thr li a:hover{background:#CCC;}
+
+.more1{margin-left: 28px;margin-top: -4px;}
+/************************页面主体部分左侧区域结束************************/
+/************************页面主体部分右侧区域开始************************/
+.mlRight{
+  float: right;
+  width: 540px;
+}
+
+.tab {
+  float: left;
+  position: relative;
+}
+
+.tab a {
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.tab > li[class=active] a {
+  color: #42a5f5;
+}
+
+.tab > li[class=active] a:after {
+  content: "";
+  display: block;
+  width: 144px;
+  height: 3px;
+  background-color: #42a5f5;
+  position: absolute;
+  top: -2px;
+  left: -1px;
+}
+
+.tab > li {
+  width: 142px;
+  height: 40px;
+  font: 14px "微软雅黑";
+  float: left;
+  list-style: none;
+  border: 1px solid #ddd;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+  border-bottom: none;
+  background: #ffffff;
+}
+
+.content {
+  width: 540px;
+  height: 676px;
+  border: 1px solid #ddd;
+  top: 40px;
+  float: left;
+}
+
+.active {
+  color: #42a5f5;
+  z-index: 100;
+  position: relative;
+  border-bottom: 1px solid #ffffff;
+  top: 1px;
+}
+
+.list, .list-2 {
+  float: left;
+  margin-left: 30px;
+  margin-top: 20px;
+  vertical-align: middle;
+}
+
+.list-2 {
+  display: none;
+}
+
+.list > li, .list-2 > li {
+  list-style: none;
+  font: 14px "微软雅黑";
+  padding-left: 40px;
+  height: 32px;
+  vertical-align: middle;
+  line-height: 32px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  background: url("../images/doc.png") no-repeat left center;
+}
+a{
+  color: #666666;
+}
+/************************页面主体部分右侧区域结束************************/
+
+/*动态添加图标*/
+/* icon小图标动画样式 */
+#useIcon{
+	height:30px;
+	line-height: 30px;
+	position: absolute;
+	right: 0;
+    top: 0;
+    display: none;
+    z-index: 2;
+}
+.hover1 li:hover #useIcon,.hover2 li:hover #useIcon{
+    display: block;
+}
+#useIcon a{
+	color:#fff;
+	width: 14px;
+    line-height: 30px;
+    height: 30px;
+	float: left;
+    margin: 0 8px;	
+    display: block;
+    text-align: center;
+    position: relative;
+    padding: 0;
+}
+
+#useIcon a.heWrite{
+	background:url(../images/icon1.png) no-repeat center center;
+}
+#useIcon a.heAdd{
+	background:url(../images/icon17.png) no-repeat center center;
+}
+#useIcon a.heReduce{
+	background:url(../images/icon18.png) no-repeat center center;
+}
+#useIcon a.heDelete{
+	background:url(../images/icon2.png) no-repeat center center;
+}
+#useIcon a.heDownload{
+	background:url(../images/icon19.png) no-repeat center center;
+}
+#useIcon a.heUpload{
+	background:url(../images/icon20.png) no-repeat center center;
+}
+
+
+
+
+
+
+
+
+
+
+

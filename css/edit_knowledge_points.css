@@ -1,0 +1,103 @@
+.contion_middle{
+    margin-left:78px;
+    margin-right:44px;
+}
+.kecheng .liBut p a{
+    color:#2a8cd7;
+    font-size:12px;
+    padding-right:15px;
+    background:url(../images/blue-arrow.png) no-repeat right center;
+}
+.contion_nav li{
+    float: left;
+}
+.contion_nav li.active{
+    background-color: #42a5f5;
+}
+.contion_nav li.active a{
+    color:#fff;
+    border-right:none;
+}
+.contion_nav li a{
+    color: #42a5f5;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 16px;
+    border-right: 1px solid #a0def5;
+}
+.contion_nav li:last-child a{
+    border-right:none;
+}
+.kecheng .liBut ul.myUl{
+    z-index:999;
+}
+.mlBox{
+    width:1198px;
+    margin-top:20px;
+}
+.contion_nav .active{
+    border-bottom:none;
+    top:0;
+}
+.ml_con{
+    padding-top:20px;
+}
+.editknowledge-tit{
+    height:45px;
+}
+.editknowledge-tit h3{
+    color:#2a8cd7;
+    font-size:18px;
+    padding-left:33px;
+    background:url(../images/xt_03.png) no-repeat left center;
+    font-weight:normal;
+}
+.editknowledge-tit .back{
+    font-size:14px;
+    color:#aaa;
+    padding-left:23px;
+    background:url(../images/back.png) no-repeat left center;
+}
+.editknowledge-tit .back:hover{
+    color:#2a8cd7;
+    text-decoration: underline;
+}
+.addBox .copy{
+    color:#42a5f5;
+    padding:0 24px;
+}
+.addBox .copy:hover{
+    text-decoration: underline;
+}
+.addBox .save{
+    display: block;
+    width:72px;
+    height:30px;
+    line-height:30px;
+    text-align: center;
+    color:#fff;
+    background-color: #42a5f5;
+    border-radius:3px;
+}
+.addBox .save:hover{
+    background-color: #2a8cd7;
+}
+.add-task{
+    padding:20px 0 20px 30px;
+}
+.add-task a{
+    display: block;
+    width:108px;
+    height: 28px;
+    line-height: 27px;
+    border:1px solid #42a5f5;
+    text-align: center;
+    color:#42a5f5;
+    border-radius:3px;
+}
+.list li a:hover{
+    color:#42a5f5;
+}
+.mybigList,.mlRight .content{
+    width:538px;
+}

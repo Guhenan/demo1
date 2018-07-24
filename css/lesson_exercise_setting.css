@@ -1,0 +1,98 @@
+.setting-con{
+    padding:48px 130px 100px 130px;
+}
+.add-left{
+    width:400px;
+}
+.add-left h3{
+    height: 50px;
+    line-height:50px;
+    font-weight:normal;
+    color:#fff;
+    padding-left:50px;
+    background:#2a8cd7 url(../images/add_icon1.png) no-repeat 20px center;
+}
+.add-left .bd{
+    border:1px solid #d4d4d4;
+    border-top:0 none;
+    padding:20px 50px 57px 20px;
+}
+.standard > ul,.custom{
+    padding-left:28px;
+}
+
+.standard > label,.custom h4{
+    color:#2a8cd7;
+    font-weight:normal;
+    margin-bottom:20px;
+}
+.standard > ul{
+    margin-top:20px;
+}
+.standard > ul > li{
+    font-size:12px;
+    margin-bottom:20px;
+}
+.standard > ul > li label{
+    color:#666;
+}
+.standard > ul > li span{
+    color:#aaa;
+}
+.standard > ul > li > div{
+    margin-right:32px;
+}
+.custom > .input{
+    margin-bottom:10px;
+}
+.custom > .input > input,.custom > .sel > select{
+    width:142px;
+    height: 28px;
+    line-height:28px;
+    padding:0 5px;
+    border:none 0;
+    border:1px solid #d5d5d5;
+    border-radius: 3px;
+    color:#666;
+}
+.custom > .sel > select{
+    width:155px;
+    height:30px;
+}
+.custom .add-btn{
+    display: block;
+    width: 72px;
+    height: 30px;
+    line-height:30px;
+    text-align: center;
+    color: #fff;
+    background-color: #42a5f5;
+    border-radius: 3px;
+    margin-top:20px;
+}
+.added-type{
+    margin-left:60px;
+}
+.added-type .bd{
+    border:1px solid #42a5f5;
+    padding:0 0 40px 0;
+}
+.table tr td,.table tr th{
+    padding:15px 0;
+}
+.table > thead > tr > th,.table > tbody > tr > td{
+    border-bottom: 1px solid #ecedf0;
+}
+.setted{
+    height:22px;
+    line-height:22px;
+    width:78px;
+    text-align: center;
+    background-color: #fff;
+    border:1px solid #42a5f5;
+    border-radius: 3px;
+    font-size:12px;
+    color: #42a5f5;
+    margin-top:13px;
+    margin-right:19px;
+}

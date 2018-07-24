@@ -1,0 +1,74 @@
+.papers_right{
+    font-size:12px;
+}
+.ol-tail{
+    border-right:none 0;
+}
+.ce{
+    background:none;
+}
+.ce li a{
+    font-size:12px;
+    padding-left:23px;
+}
+.ce li a img{
+    margin-top:-3px;
+}
+.all-check{
+    margin-bottom:20px;
+}
+.all-check .total{
+    color:#666;
+}
+.all-check .total em{
+    color:#fc755a;
+}
+.all-check label {
+    font-size:14px;
+}
+.all-check label input[type="checkbox"]{
+    margin-top:-1px;
+}
+.all-check .add{
+    display:inline-block;
+    width: 54px;
+    height: 20px;
+    line-height:20px;
+    text-align: center;
+    border:1px solid #42a5f5;
+    color: #42a5f5;
+    border-radius: 3px;
+    margin-left:25px;
+}
+.papers-con li{
+    color:#777;
+    margin-bottom:30px;
+    padding-bottom:30px;
+    border-bottom:1px solid #e8e8e8;
+}
+.papers-con li input[type="checkbox"]{
+    margin-right:10px;
+    margin-top:4px;
+}
+.papers-con li h3{
+    font-size:14px;
+    color:#42a5f5;
+    font-weight:normal;
+    padding-right:40px;
+}
+.papers-con li .status{
+    padding-left:20px;
+    background: url(../images/ok.png) no-repeat left center;
+}
+.papers-con li .tit{
+    margin-bottom:15px;
+}
+.papers-con .other span{
+    margin-right:50px;
+}
+.papers-con .desc{
+    margin-bottom:10px;
+    line-height:20px;
+}
+
+

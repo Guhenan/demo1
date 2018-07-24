@@ -1,0 +1,261 @@
+.addform-tit{
+    margin-bottom:30px;
+}
+.addform-tit h3{
+    background:url(../images/icon15.png) no-repeat left center;
+}
+.addform-con{
+    padding:0 55px 0 55px;
+    font-size:12px;
+}
+.search .icons{
+    margin-right:38px;
+}
+.search .icons img{
+    width:19px;
+    height: 19px;
+    margin-top:5px;
+}
+.search .plus{
+    margin-right:15px;
+}
+.ser-box select,.ser-box input[type="text"]{
+    width:80px;
+    height: 28px;
+    border:none;
+    border:1px solid #d4d4d4;
+    color:#666;
+}
+.ser-box input[type="text"]{
+    width:484px;
+    padding:0 5px;
+    margin:0 7px;
+}
+.pub-time{
+    margin:20px 0;
+}
+.pub-time input[type="text"]{
+    width:168px;
+    padding:0 5px;
+    height: 28px;
+    border:none;
+    border:1px solid #d4d4d4;
+    color:#666;
+}
+.pub-time .pub-tit{
+    display:inline-block;
+    width:90px;
+}
+.radios input[type="radio"]{
+    vertical-align:middle;
+}
+.radios label{
+    margin-right:30px;
+    color:#666;
+}
+.radios .ser{
+    display:inline-block;
+    width: 68px;
+    height: 24px;
+    line-height:24px;
+    text-align: center;
+    color:#fff;
+    border-radius: 3px;
+    background-color: #42a5f5;
+}
+.addform-lists{
+    margin-top:20px;
+}
+.addform-all{
+    color:#666;
+    margin-bottom:30px;
+}
+em{
+    color:#fc755a;
+}
+
+.addform-all .add{
+    margin-left:25px;
+    display: block;
+    width:54px;
+    height: 20px;
+    background: #fff;
+    border:1px solid #42a5f5;
+    text-align: center;
+    line-height:20px;
+    border-radius: 3px;
+}
+.addform-lists{
+    position: relative;
+}
+.addform-lists > ul > li{
+    margin-bottom:30px;
+}
+.addform-lists > ul > li > .text{
+    width:854px;
+    margin-left:10px;
+}
+.addform-lists > ul{
+    border-bottom: 1px solid #e8e8e8;
+}
+.addform-lists > ul > li > .text .tit{
+    font-size:14px;
+    color:#2a8cd7;
+    height:30px;
+}
+.other span{
+    color:#bbb;
+    padding-left:96px;
+    padding-right:10px;
+}
+.sumary{
+    line-height:22px;
+}
+.addform-lists > ul > li > input[type="checkbox"]{
+    margin-top:4px;
+}
+.addform-lists > ul > li .add a{
+    text-decoration: underline;
+    color:#42a5f5;
+}
+.ml_con{
+    padding-bottom:0;
+}
+.addform-lists .pages-box{
+    margin-bottom:20px;
+}
+/*弹出框*/
+.addform-modal{
+    position: absolute;
+    left:50%;
+    top:53px;
+    width:434px;
+    margin-left:-217px;
+    height:auto;
+    background-color: #fff;
+    z-index:1000;
+    box-shadow:0 3px 8px rgba(0,0,0,.35);
+    -webkit-box-shadow: 0 3px 8px rgba(0,0,0,.35);
+    -moz-box-shadow: 0 3px 8px rgba(0,0,0,.35);
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    display: none;
+}
+.addform-modal .m-hd{
+    height: 38px;
+    line-height:38px;
+    background: #eeeeee;
+    padding:0 20px;
+}
+.m-hd h3{
+    color:#666;
+    font-size:16px;
+    font-weight:normal;
+}
+.m-hd .close{
+    width:12px;
+    height: 12px;
+    background:url(../images/close.png) no-repeat center center;
+    position: relative;
+    top:12px;
+    cursor: pointer;
+}
+.m-bd{
+    padding:20px 0 20px 60px;
+}
+.m-bd .item{
+    margin-bottom:10px;
+}
+.m-bd .item select,.m-bd .item input{
+    height:28px;
+    border:0 none;
+    border:1px solid #d5d5d5;
+    border-radius: 3px;
+}
+.m-bd .item select{
+    width:151px;
+}
+.m-bd .item input{
+    width:180px;
+    padding:0 5px;
+}
+.m-bd .item span{
+    color:#666;
+    font-size:12px;
+    margin-right:15px;
+}
+.m-bd{
+    border-bottom: 1px solid #e5e5e5;
+}
+.m-ft{
+    text-align: right;
+    padding:10px 12px 10px 0;
+
+}
+.m-ft .ser,.m-ft .closed{
+    display:inline-block;
+    width:70px;
+    height: 28px;
+    line-height:28px;
+    text-align: center;
+    color:#fff;
+    border-radius: 3px;
+}
+.m-ft .ser{
+    background-color: #42a5f5;
+}
+.m-ft .closed{
+    width:68px;
+    height: 26px;
+    background-color: #f5f5f5;
+    color:#666666;
+    border: 1px solid #dcdcdc;
+}
+
+.m-bd{
+    padding-left:30px;
+}
+.m-bd .mark-tit,.m-bd .reason-tit{
+    width:64px;
+    color:#666;
+}
+.mark-con .label{
+    display: block;
+    width: 54px;
+    height: 20px;
+    line-height:20px;
+    text-align: center;
+    color:#42a5f5;
+    border:1px solid #42a5f5;
+    background-color: #fff;
+    border-radius: 3px;
+    margin-right:10px;
+    margin-bottom:10px;
+}
+.has .label{
+    border:1px solid #d5d5d5;
+    color:#aaa;
+}
+.reason-text{
+    margin-top:15px;
+}
+.reason-text textarea{
+    width:292px;
+    height:56px;
+    padding:5px;
+    resize:none;
+    border:none;
+    border:1px solid #d5d5d5;
+    border-radius: 3px;
+}
+.has{
+    width:292px;
+    padding:10px 5px 0 5px;
+    border:1px solid #d5d5d5;
+    border-radius: 3px;
+    margin-top:10px;
+}
+.has p{
+    margin-bottom:12px;
+}
+/*弹出框*/

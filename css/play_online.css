@@ -1,0 +1,172 @@
+.read-right{
+    min-height:1000px;
+    width:250px;
+    padding:0 20px;
+}
+.read-right-top{
+    padding:26px 0 68px 0;
+}
+.meb-con .hd{
+    height: 20px;
+    padding-bottom:8px;
+    line-height:28px;
+    border-bottom:1px solid #ddd;
+    padding-left:30px;
+    background:url(../images/comment.png) no-repeat 0 center;
+}
+.meb-con .hd span{
+    margin-right:18px;
+    cursor: pointer;
+    color: #42a5f5;
+}
+.footer{
+    position: static;
+}
+.box_3{
+    margin-bottom:21px;
+}
+.mlBox{
+    background:url(../images/w-bg.png) repeat-y;
+}
+.meb-con .bd ul{
+    padding:25px 0;
+}
+.meb-con .bd li{
+    float: left;
+    text-align: center;
+    width:30%;
+    margin:0 1.666%;
+    margin-bottom:30px;
+}
+.meb-con .bd li a{
+    display: block;
+}
+.meb-con .bd li a img{
+    display: block;
+    width:60px;
+    height:60px;
+    margin:0 auto;
+}
+.meb-con .bd li p{
+    font-size:12px;
+    color:#999;
+    margin-top:10px;
+}
+.txtarea{
+    margin-bottom:20px;
+}
+.txtarea textarea{
+    border:0;
+    width:616px;
+    height:102px;
+    padding:5px;
+    border:1px solid #ddd;
+    resize:none;
+}
+.txtarea p{
+    text-align: right;
+}
+.txtarea p a{
+    display:inline-block;
+    width:80px;
+    text-align: center;
+    height:34px;
+    line-height:34px;
+    /*background-color: #42a5f5;*/
+    color: #fff;
+    border-radius:3px;
+    padding-left:50px;
+    background: #42a5f5 url(../images/fly.png) no-repeat 20px center;
+    margin-top:6px;
+}
+.txtarea p a:hover{
+    background: #00abe5 url(../images/fly.png) no-repeat 20px center;
+}
+.discuss h4{
+    font-size:16px;
+    color:#333;
+    font-weight:normal;
+    margin-bottom:20px;
+}
+discuss h4 span{
+    color:#999;
+}
+.discuss >ul >li{
+    border-bottom:1px solid #ddd;
+    margin-bottom:20px;
+}
+.discuss >ul >li:last-child{
+    border-bottom:0;
+}
+.discuss >ul > li .img .pic{
+    width:50px;
+    height:50px;
+    margin-right:10px;
+}
+.discuss li .txt{
+    width:568px;
+}
+.discuss li dl{
+
+    margin-bottom:20px;
+}
+.discuss li dt{
+    color:#5c7ec4;
+    margin-bottom:15px;
+}
+.discuss li dd{
+    font-size:12px;
+    margin-bottom:15px;
+}
+.dark-grey{
+    color:#666;
+}
+.grey{
+    color:#999;
+}
+.reply{
+    color:#42a5f5;
+    margin-right:30px;
+}
+.reply img,.agree img{
+    margin-right:3px;
+}
+.agree{
+    color:#ff7200;
+}
+.discuss li .txt-in{
+    width:508px;
+}
+.inner{
+    border-top:1px solid #ddd;
+    padding-top:20px;
+}
+.discuss li .txt-in dl{
+    border:0;
+}
+.txt textarea{
+    width:556px;
+}
+.discuss .maincon{
+    border-bottom:1px solid #ddd;
+}
+.totalpage{
+    margin-left:10px;
+    color:#aaa;
+}
+.totalpage span{
+    line-height:24px;
+}
+.totalpage span em.red{
+    color:#ff0000;
+}
+.totalpage span em.black{
+    color:#666;
+}
+.pagination .no-border{
+    border:0;
+}
+.sider-bd{
+    min-height:300px;
+}
+

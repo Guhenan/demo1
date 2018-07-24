@@ -1,0 +1,86 @@
+.division-bd{
+    height:420px;
+    overflow-y:auto;
+    border:1px solid #d4d4d4;
+}
+.add-left .bd{
+    border:none;
+}
+.add-left h3{
+    background:#2a8cd7 url(../images/user-icon.png) no-repeat 20px center;
+}
+.division-left .bd{
+    padding:0;
+}
+.add-left .bd h4{
+    height: 40px;
+    line-height:40px;
+    font-size:14px;
+    font-weight:normal;
+    padding-left:18px;
+}
+.add-left .bd .name img{
+    margin-right:5px;
+}
+.add-left .bd .lightblue{
+    background: #d5f0fa;
+}
+.add-left .bd .grey{
+    background-color: #f7f7f7;
+}
+.add-left .bd h4 span.leader{
+    margin-left:73px;
+    color: #aaa;
+}
+.units-con{
+    padding:20px 45px;
+    font-size:12px;
+}
+.units-con li dt{
+    color: #aaa;
+    margin-bottom:10px;
+}
+.units-con li dd span{
+    margin-right:15px;
+}
+.units-con li dd{
+    padding-left:18px;
+    margin-bottom:10px;
+}
+
+.division-right .name img{
+    margin:0 10px;
+}
+.division-right .leader img{
+    margin-right:5px;
+}
+.division-right .tasks-con{
+    padding:20px 18px 0 18px;
+    font-size:12px;
+}
+.division-right .tasks-con input[type="checkbox"]{
+    margin-right:20px;
+}
+.division-right .tasks-con .tit{
+    margin-right:24px;
+}
+.division-right .tasks-con .tit span {
+    display: inline-block;
+    width:110px;
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    vertical-align:middle;
+}
+.division-right .tasks-con .person span{
+    margin-right:10px;
+}
+.division-right .tasks-con .person img{
+    margin-right:5px;
+}
+.division-right .tasks-con li{
+    margin-bottom:10px;
+}
+.division-right .bd{
+    padding-bottom:20px;
+}

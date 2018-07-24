@@ -1,0 +1,216 @@
+.banner{
+    position: relative;
+    width:100%;
+    height:300px;
+    background:url(../images/b-banner.jpg) no-repeat top center;
+    margin-bottom:21px;
+}
+.banner-inner{
+    width:1200px;
+    height:300px;
+    margin:0 auto;
+    position: relative;
+}
+.banner-inner h2{
+    font-weight:normal;
+    font-size:46px;
+    color: #85591d;
+    text-align: center;
+    padding-top:117px;
+}
+.btns{
+    position: absolute;
+    right:0;
+    bottom:10px;
+}
+.btns a{
+    display:inline-block;
+    width:107px;
+    height: 54px;
+    line-height:54px;
+    color: #fff;
+    border-radius:3px;
+    padding-left:66px;
+    font-size:20px;
+}
+.btns .in-course{
+    margin-right:32px;
+    background:#c04c0a url(../images/forward.png) no-repeat 22px center;
+}
+.btns .fork{
+    background: #8bc116 url(../images/fork.png) no-repeat 22px center;
+}
+.left{
+    width:805px;
+}
+.main h3{
+    font-weight:normal;
+    height: 51px;
+    line-height:51px;
+    padding-left:60px;
+    font-size:18px;
+    color: #7d4e0f;
+}
+.intro,.target{
+    width:803px;
+    border:1px solid #e7d6ba;
+    margin-bottom:20px;
+}
+.intro h3{
+    background: #f5f1df url(../images/01.png) no-repeat 22px center;
+}
+.target h3{
+    background: #f5f1df url(../images/flag.png) no-repeat 22px center;
+}
+.mebs h3{
+    background: #f5f1df url(../images/team.png) no-repeat 17px center;
+}
+.catlog h3{
+    background: #f5f1df url(../images/catlog.png) no-repeat 17px center;
+}
+.other-course h3{
+    background: #f5f1df url(../images/other-course.png) no-repeat 17px center;
+}
+.img img{
+    width:100px;
+    height: 135px;
+}
+.img p{
+    font-size:12px;
+    color: #999;
+    line-height:20px;
+}
+.txt-con{
+    padding:22px;
+    background-color: #fff;
+}
+.right .txt-con{
+    padding:17px;
+}
+.txt-con .img{
+    margin-right:20px;
+    width:140px;
+}
+.txt-con .img .pic{
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+    width:100px;
+    height: 135px;
+    background-color: #c9a03d;
+    padding:8px;
+    margin-bottom:10px;
+}
+.txt-con .txt{
+    width:599px;
+}
+.txt h4{
+    font-size:18px;
+    color: #7d4e0f;
+    font-weight:normal;
+    padding-bottom:14px;
+    border-bottom:1px solid #b88d1e;
+    margin-bottom:20px;
+}
+.txt p{
+    line-height:24px;
+    text-indent:2em;
+    color: #333;
+}
+.target-con{
+    padding:22px;
+    background-color: #fff;
+}
+.target-con h5{
+    line-height:30px;
+    font-size: 14px;
+}
+.target-con h6{
+    font-weight:normal;
+    line-height:30px;
+    font-size: 14px;
+}
+.right{
+    width:375px;
+}
+.mebs,.catlog,.other-course{
+    width:372px;
+    border:1px solid #e7d6ba;
+    border-left:2px solid #e7d6ba;
+    margin-bottom:20px;
+}
+.mebs p{
+    line-height:24px;
+    text-indent:2em;
+    color:#666;
+}
+.per{
+    margin-bottom:20px;
+}
+.per span{
+    color: #7d4e0f;
+    font-size:16px;
+    margin-right:5px;
+}
+.persons{
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.avator{
+    margin:0 auto;
+    width:210px;
+    margin-bottom:18px;
+}
+.avator img{
+    width:100px;
+    height: 100px;
+    margin-right:33px;
+}
+.avator dt{
+    font-size:18px;
+    color: #7d4e0f;
+    padding-top:10px;
+    margin-bottom:14px;
+}
+.avator dd{
+    margin-bottom:12px;
+}
+.member ul li{
+    width:50%;
+    float: left;
+    margin-bottom:20px;
+}
+.member ul li img{
+    margin-right:8px;
+}
+.member ul li dt{
+    font-size:16px;
+    color: #666;
+    margin-bottom:3px;
+}
+.member ul li dd{
+    font-size:12px;
+    color:#999;
+}
+.other-course ul li{
+    text-align: center;
+    width:50%;
+    float: left;
+    margin-bottom:20px;
+}
+.other-course ul li .pic img{
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+    width: 100px;
+    height: 135px;
+    background-color: #fff;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+.other-course ul li p{
+    color: #b88d1e;
+    font-size:12px;
+}
+.ce{
+    width:100%;
+}
+.ce li{
+    width:100%;
+}

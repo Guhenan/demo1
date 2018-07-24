@@ -1,0 +1,317 @@
+@charset "utf-8";
+/* CSS Document */
+
+.box_3 {
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 21px;
+}
+.zsdBox{ width:1200px; border:1px #e8e8e8 solid; background:#FFF;}
+
+.zsd_bigBtn{
+	float: left;
+	height: 38px;
+	line-height: 38px;
+	padding-left: 30px;
+}
+.zsd_bigBtn span{
+	display: block;
+	float: left;
+	font-size: 0;
+	width: 21px;
+	height: 38px;
+	background: url(../images/icon12.png) no-repeat center center;
+}
+.zsd_bigBtn>a{
+	color: #2a8cd7;
+	font-size: 18px;
+	padding: 0 20px;
+	display: block;
+    float: left;
+    position: relative;
+}
+
+.zsd_subNav{ width:1200px; height:38px; border-bottom:2px solid #45A5F5; background:#D5F0FA; vertical-align:middle; line-height:38px;}
+.gs{ margin-right:30px;}
+.gs a{ text-decoration:none; color:#45A5F5; font-size:14px;}
+.gs a.bksc{ margin-left:10px; border-right:1px solid #A0DEF5; padding-right:10px;}
+.gs a.bks{ margin-left:10px;}
+.gs a .circle{ width: 50px; height:50px; background-color:#FFA000; border-radius: 50%;-moz-border-radius: 50%;      -webkit-border-radius: 50%; color:#FFF; text-align:center; font-size:10px; padding:2px 2px;font-family:Arial, Helvetica, sans-serif; margin-left:5px;} 
+.zsd_con{ 
+	padding: 20px 30px;
+	min-height:558px;
+	_height:558px;
+}
+
+.zsd_left{
+	float: left;
+	width: 223px;
+	position: relative;
+	background: #f4f4f4;
+}
+.zsd_left img.blueLine{
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 555;
+}
+.leftTitle{
+	height: 38px;
+	padding: 0 10px 0 24px;
+	border:1px solid #e8e8e8; 
+	border-bottom:1px solid #fff; 
+	line-height: 38px;
+	color: #2a8cd7;
+	font-size: 16px;
+}
+.leftTitle p{
+	float: left;
+	font-weight: bold;
+}
+.leftTitle a{
+	float: right;
+	display: block;
+	color: #42a5f5;
+	border: 1px solid #42a5f5;
+	width: 78px;
+	height: 22px;
+	line-height: 22px;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 7px;
+	background: #fff;
+}
+.leftCon{
+	width: 218px;
+	border:1px solid #e8e8e8;
+	border-left:4px solid #dedede;
+}
+.leftCon h4{
+	height: 35px;
+	color:#aaaaaa;
+	line-height: 35px;
+	width: 218px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: normal;
+	background: #fff;
+}
+.leftCon .listBox .listBtn{
+	height: 32px;
+	color:#666;
+	line-height: 32px;
+	width: 171px;
+	padding-left: 47px;
+	font-size: 14px;
+	font-weight: normal;
+	border-top:1px solid #e7e7e7; 
+	border-bottom:1px solid #fff; 
+	position: relative;
+	/*background: url(../images/arwor_04.png) no-repeat 27px center;*/
+}
+.leftCon .listBox .listBtn span{
+	display: block;
+	width: 7px;
+	height: 7px;
+	position: absolute;
+	left: 27px;
+	top: 50%;
+	margin-top: -3.5px;
+}
+.leftCon .listBox .listBtn span.play{
+	background: url(../images/arwor_04.png) no-repeat center center;
+}
+.leftCon .listBox .listBtn span.stop{
+	background: url(../images/arwor_03.png) no-repeat center center;
+}
+
+.leftCon .listBox .listBtn:hover,.leftCon .listBox ul.listCon li:hover{
+	background:#fff;
+}
+.leftCon .listBox ul.listCon{
+	display: none;
+}
+.leftCon .listBox ul.listCon li{
+	height: 34px;
+	line-height: 34px;
+	width: 100%;
+	border-top: 1px solid #e8e8e8;
+	border-bottom: 1px solid #fff;
+}
+.leftCon .listBox ul.listCon li a{
+	display: block;
+	margin-left: 67px;
+	height: 34px;
+	line-height: 34px;
+	color: #666;
+	font-size: 12px;
+}
+.zsd_right{
+	width: 894px;
+	float:right;
+}
+.btnLine{
+	height: 36px;
+	width: 100%;
+	line-height: 34px;
+	position: relative;
+    z-index: 3;
+}
+.btnLine>a{
+	display: block;
+	float: left;
+	width: 166px;
+	height: 36px;
+	border-radius: 3px;
+	text-align: center;
+	color: #fff;
+}
+.btnLine a.startBtn1{
+	background: #ffae00;
+}
+.btnLine a.startBtn2{
+	background: #00c1ef;
+	margin: 0 14px;
+}
+.btnLine .startBtn3{
+	float: left;
+	border: 1px solid #d4d4d4;
+	color: #4284d0;
+	width: 144px;
+	text-align: center;
+	padding-right: 10px;
+	height: 34px;
+	border-radius: 0;
+	background: url(../images/arwor_05.png) no-repeat 140px center;
+	position: relative;
+	cursor: pointer;
+}
+
+.btnLine .startBtn3 span{
+	margin-left:3px;
+}
+.btnLine .startBtn3 span i{
+	color: #fc755a;
+}
+ul.talkCon{
+	padding: 3px 14px;
+	width: 366px;
+	position: absolute;
+	left: -1px;
+	top:34px;
+	border: 1px solid #d4d4d4;
+	font-size: 12px;
+	display: none;
+	background: #fff;
+}
+ul.talkCon li{
+	height: 14px;
+	line-height: 14px;
+	padding:7px 0px; 
+}
+ul.talkCon li a{
+	float: left;
+	color: #666;
+	display: block;
+	height: 14px;
+	line-height: 14px;
+}
+ul.talkCon li a:hover{
+	color: #4284d0;
+}
+
+ul.talkCon li .share{
+	float: right;
+	padding: 0;
+}
+ul.talkCon li .share span{
+	float: left;
+	margin-right: 10px;
+}
+ul.talkCon li .share a.myShare{
+	margin-right: 0;
+}
+
+.addBox{
+	height: 30px;
+	width: 100%;
+	margin:27px 0 13px 0;
+	position: relative;
+    z-index: 1;
+}
+.addBox a.addZsd{
+	display: block;
+	width: 122px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	color: #42a5f5;
+	float: left;
+	border: 1px solid #42a5f5;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.search_box{
+	float: right;
+}
+#search_input{
+	width: 164px;
+    height: 28px;
+    padding: 0 30px 0 10px;
+    overflow: hidden;  
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    position: relative;
+}
+#searchTip{
+	border: medium none;
+    outline: 0 none;
+    margin: 0;
+    padding: 0;
+    height: 28px;
+    width: 164px;
+    line-height: 28px;
+    _display: inline;
+    color: #dedede;
+    font-size: 14px;
+}
+#search_input.focus{}
+#search_btn{
+	width:30px;
+	height:28px; 
+	background: url(../images/icon15.png) no-repeat center center;
+	position: absolute;
+	right: 0;
+	top: 0;
+	cursor: pointer;
+}
+.table{
+	width: 100%;
+}
+.table tr th{
+	color: #2a8cd7;
+	font-size: 16px;
+	padding:10px 0;
+	vertical-align: middle;
+	text-align: center;
+}
+.table thead{
+	background: #d5f0fa;
+}
+.table tr.even{
+	background: #f1f1f1;
+}
+.table tr td{
+	color: #666;
+	font-size: 12px;
+	padding:10px 0;
+	vertical-align: middle;
+	text-align: center;
+}
+.table tr td a{
+	position: relative;
+}
+
