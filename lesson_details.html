@@ -1,0 +1,321 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>课程详情展示</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/kcsj_ml.css">
+    <link rel="stylesheet" href="css/lesson_details.css">
+    <!-- 引入 echarts.js -->
+    <script src="js/echarts.min.js"></script>
+</head>
+<body>
+<div class="top">
+    <div class="top-box">
+        <div class="loge fl"></div>
+        <div class="tail">协同备课中心</div>
+        <div class="message fr">
+            <div class="kongjian fl">
+                <a href="#" class="line"><i class="icon"></i>首页</a>
+                <a href="#">郑萍</a>
+                <a href="#"><i class="icon_1"></i>退出</a>
+            </div>
+            <div class="nav fr">
+                <ul>
+                    <li><a href="#">我的空间</a>
+                        <ul>
+                            <li><a href="#"><i class="fist_1"></i>空间首页</a></li>
+                            <li><a href="#"><i class="fist_2"></i>我的教研组</a></li>
+                            <li> <a href="#"><i class="fist_3"></i>我的研讨</a></li>
+                            <li> <a href="#"><i class="fist_4"></i>我的创作</a></li>
+                            <li> <a href="#"><i class="fist_5"></i>学习空间</a></li>
+                        </ul>
+                    </li>
+                    <li> <a href="#" class="nav_2"><i class="icon_3"></i>消息<i class="icon_4">100</i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="cearfix"></div>
+    </div>
+</div>
+<div class="bread">
+    <div class="bread-nav">
+        <a href="#">协同备课中心 ></a>
+        <a href="#">2017年高中语文必修二 ></a>
+        <span>课程详情</span>
+    </div>
+</div>
+<!-- 目录 -->
+<div class="detail-box clearfix">
+    <div class="left fl">
+        <div class="part1 clearfix">
+            <div class="img fl"><img src="images/grey.png" alt=""></div>
+            <div class="txt fl">
+                <h3>2017年高中语文必修二 <a href="#">编辑课程</a></h3>
+                <p><span class="grey">年级及学期：</span><span>高中一年级 语文</span></p>
+                <p><span class="grey">教材版本：</span><span>人教版 2010课标</span></p>
+                <p><span class="grey">备课时间：</span><span>2017/01/01~2017/02/18</span></p>
+                <p class="grey">课程简介：</p>
+                <p class="artical">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.</p>
+            </div>
+        </div>
+        <div class="part2">
+            <h3>备课任务进度</h3>
+            <div class="bd clearfix">
+                <div class="bd-l fl">
+                    <div class="dector"></div>
+                    <div class="remain clearfix">
+                        <img class="fl" src="images/clock.png" alt="">
+                        <div class="txt">
+                            <p class="green">已经开始<span> 45 天</span></p>
+                            <p class="yellow">距离结束还有<span> 6 天</span></p>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="bar"></div>
+                    </div>
+                    <p class="write">尚有<span>3</span>个任务无结果</p>
+                </div>
+                <div class="bd-r fr">
+                    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+                    <div class="txt">
+                        <p>共完成备课成果：<span>21</span>个</p>
+                        <p>审阅通过：<span>8</span>个</p>
+                        <p>待审阅：<span>13</span>个</p>
+                    </div>
+                    <div id="pie" style="width: 377px;height:147px;"></div>
+                    <script type="text/javascript">
+                        // 基于准备好的dom，初始化echarts实例
+                        var myChart = echarts.init(document.getElementById('pie'));
+                        option = {
+                            tooltip : {
+                                trigger: 'item',
+                                formatter: "{a} <br/>{b} : {c} ({d}%)"
+                            },
+                            legend: {
+                                orient: 'vertical',
+                                left: 'left',
+                            },
+                            series : [
+                                {
+                                    type: 'pie',
+                                    radius : '55%',
+                                    center: ['65%', '50%'],
+                                    data:[
+                                        {value:335, name:'文档3个'},
+                                        {value:310, name:'PPT2个'},
+                                        {value:234, name:'图片6个'},
+                                        {value:135, name:'视频2个'},
+                                        {value:1548, name:'其他8个'}
+                                    ],
+                                    itemStyle: {
+                                        emphasis: {
+                                            shadowBlur: 10,
+                                            shadowOffsetX: 0,
+                                            shadowColor: 'rgba(0, 0, 0, 0.5)'
+                                        }
+                                    }
+                                }
+                            ]
+                        };
+                        // 使用刚指定的配置项和数据显示图表。
+                        myChart.setOption(option);
+                    </script>
+                </div>
+            </div>
+        </div>
+        <div class="part3">
+            <h3>备课任务</h3>
+            <table class="table" cellpadding="0" cellspacing="0">
+                <thead>
+                <tr class="headTr">
+                    <th width="15%">备课任务</th>
+                    <th width="20%">计划备课完成时间</th>
+                    <th width="20%">备课成果总数（个）</th>
+                    <th width="20%">已审核成果数（个）</th>
+                    <th width="25%">备课教师</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>课程设计</td>
+                    <td><span>2017/02/18</span><span>(已截止)</span></td>
+                    <td>5</td>
+                    <td>2</td>
+                    <td><span class="tea"><img src="images/user-icon2.png" alt="">郑萍</span><span class="tea"><img src="images/user-icon2.png" alt="">郑萍</span></td>
+                </tr>
+                <tr>
+                    <td>课程设计</td>
+                    <td><span>2017/02/18</span><span>(已截止)</span></td>
+                    <td>5</td>
+                    <td>2</td>
+                    <td><span class="tea"><img src="images/user-icon2.png" alt="">郑萍</span><span class="tea"><img src="images/user-icon2.png" alt="">郑萍</span></td>
+                </tr>
+                <tr>
+                    <td>课程设计</td>
+                    <td><span>2017/02/18</span><span>(已截止)</span></td>
+                    <td>5</td>
+                    <td>2</td>
+                    <td><span class="tea"><img src="images/user-icon2.png" alt="">郑萍</span><span class="tea"><img src="images/user-icon2.png" alt="">郑萍</span></td>
+                </tr>
+                <tr>
+                    <td>课程设计</td>
+                    <td><span>2017/02/18</span><span>(已截止)</span></td>
+                    <td>5</td>
+                    <td>2</td>
+                    <td><span class="tea"><img src="images/user-icon2.png" alt="">郑萍</span><span class="tea"><img src="images/user-icon2.png" alt="">郑萍</span></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="right fr">
+        <div class="part4">
+            <h3>备课组负责人<a href="#">成员管理</a></h3>
+            <ul class="clearfix">
+                <li>
+                    <div><img src="images/detail-img.png" alt=""></div>
+                    <dl>
+                        <dt>王静</dt>
+                        <dd>高级教师</dd>
+                        <dd>陈经纶中学（本部）</dd>
+                    </dl>
+                </li>
+                <li>
+                    <div><img src="images/detail-img.png" alt=""></div>
+                    <dl>
+                        <dt>王静</dt>
+                        <dd>高级教师</dd>
+                        <dd>陈经纶中学（本部）</dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+        <div class="part5">
+            <h3>备课组成员</h3>
+            <ul class="clearfix">
+                <li>
+                    <img class="fl" src="images/m2.png" alt="">
+                    <dl class="fl">
+                        <dt>冯晓英</dt>
+                        <dd>陈经纶中学（本部）</dd>
+                    </dl>
+                </li>
+                <li>
+                    <img class="fl" src="images/m2.png" alt="">
+                    <dl class="fl">
+                        <dt>冯晓英</dt>
+                        <dd>陈经纶中学（本部）</dd>
+                    </dl>
+                </li>
+                <li>
+                    <img class="fl" src="images/m2.png" alt="">
+                    <dl class="fl">
+                        <dt>冯晓英</dt>
+                        <dd>陈经纶中学（本部）</dd>
+                    </dl>
+                </li>
+                <li>
+                    <img class="fl" src="images/m2.png" alt="">
+                    <dl class="fl">
+                        <dt>冯晓英</dt>
+                        <dd>陈经纶中学（本部）</dd>
+                    </dl>
+                </li>
+                <li>
+                    <img class="fl" src="images/m2.png" alt="">
+                    <dl class="fl">
+                        <dt>冯晓英</dt>
+                        <dd>陈经纶中学（本部）</dd>
+                    </dl>
+                </li>
+                <li>
+                    <img class="fl" src="images/m2.png" alt="">
+                    <dl class="fl">
+                        <dt>冯晓英</dt>
+                        <dd>陈经纶中学（本部）</dd>
+                    </dl>
+                </li>
+                <li>
+                    <img class="fl" src="images/m2.png" alt="">
+                    <dl class="fl">
+                        <dt>冯晓英</dt>
+                        <dd>陈经纶中学（本部）</dd>
+                    </dl>
+                </li>
+                <li>
+                    <img class="fl" src="images/m2.png" alt="">
+                    <dl class="fl">
+                        <dt>冯晓英</dt>
+                        <dd>陈经纶中学（本部）</dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+        <div class="part6">
+            <h3>成员贡献度排行榜</h3>
+            <ul>
+                <li class="clearfix">
+                    <img class="fl" src="images/detail-img2.png" alt="">
+                    <div class="text">
+                        <p>冯晓英</p>
+                        <div class="pro clearfix">
+                            <div class="prog fl">
+                                <div class="pro-bar" style="width:100%"></div>
+                            </div>
+                            <span class="fl">100%</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <img class="fl" src="images/detail-img2.png" alt="">
+                    <div class="text">
+                        <p>冯晓英</p>
+                        <div class="pro clearfix">
+                            <div class="prog fl">
+                                <div class="pro-bar" style="width:50%"></div>
+                            </div>
+                            <span class="fl">50%</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <img class="fl" src="images/detail-img2.png" alt="">
+                    <div class="text">
+                        <p>冯晓英</p>
+                        <div class="pro clearfix">
+                            <div class="prog fl">
+                                <div class="pro-bar" style="width:50%"></div>
+                            </div>
+                            <span class="fl">50%</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <img class="fl" src="images/detail-img2.png" alt="">
+                    <div class="text">
+                        <p>冯晓英</p>
+                        <div class="pro clearfix">
+                            <div class="prog fl">
+                                <div class="pro-bar" style="width:50%"></div>
+                            </div>
+                            <span class="fl">50%</span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="footer_bg">
+        <p>@ 2017 中国知网（CNKI）平台基础技术由同方知网数字出版技术有限公司提供</p>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+
+</body>
+</html>
+  
